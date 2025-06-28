@@ -23,10 +23,13 @@ The system uses audio processing (`librosa`) to extract MFCC features and classi
 ## 📁 Folder Structure
 
 MARS_Project_DL/
-├── emotion_classifier.h5 # Trained deep learning model
-├── streamlit_app.py # Streamlit app file
-├── best_model (1).h5 # model we went with that is Bi-LSTM+CNN
-└── README.md # This file
+speech_emotion_app/ 
+├── app.py 
+├── emotion_final.h5 
+├── label_encoder.pkl 
+├── test_script.py 
+├── requirements.txt 
+├── README.m
 
 
 ---
